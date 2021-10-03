@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Password Manager">
+  <link rel="stylesheet" type="text/css" href="style.css" >
+  <!--link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" -->
+  <link rel="stylesheet" href="/storage/emulated/0/Sun/FontAwesome/css/all.min.css" >
+</head>
+<body>
+  <div>
+    <ul type="none" >
+      
+    </ul>
+    <div id="addMenu" class="super-center column" >
+      <form>
+        <input type="text" id="username" placeholder="Username/Email" >
+        <br><br>
+        <input type="password" id="password" placeholder="Password" >
+        <label for="showpass">
+          <i class="fa fa-eye" ></i>
+          <input id="showpass" type="checkbox" hidden>
+        </label>
+        <br><br>
+        <div class="center" >
+          <button type="submit" ><i class="fa fa-upload" ></i></button>
+        </div>
+      </form>
+    </div>
+    <div id="addBtn" class="super-center" onclick="showMenu()"><i class="fa fa-plus" ></i></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

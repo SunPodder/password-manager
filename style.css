@@ -1,0 +1,96 @@
+body{
+  width:100vw;
+  height:100vh;
+  margin:0;
+}
+#addMenu {
+  display:none;
+  position:fixed;
+  z-index:2;
+  background:rgba(230, 230, 230, 0.7);
+  width:80vw;
+  height:80vw;
+  left:10vw;
+  top:20vh;
+  backface-visibility:visible;
+}
+.center {
+  text-align:center;
+}
+.super-center {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+input:focus, button:hover {
+  outline:none;
+}
+form input {
+  width:56vw;
+  height:4vw;
+  border:none;
+  border-radius:6vw;
+  padding:4vw;
+}
+#password {
+  width:50vw;
+  border-radius:6vw 0 0 6vw;
+}
+form .fa-eye, form .fa-eye-slash{
+  margin-left:-6vw;
+  padding:4vw;
+  border-radius:0 6vw 6vw 0;
+  background:white;
+}
+#addBtn {
+  width:10vw;
+  height:10vw;
+  border-radius:12vw;
+  background:blue;
+  position:fixed;
+  bottom:5vh;
+  right:5vw;
+  color:white;
+  padding:2vw;
+  z-index:5;
+}
+.column{
+  display:flex;
+  flex-direction:column;
+}
+.row{
+  display:flex;
+  flex-direction:row;
+}
+.right{
+  float:right;
+}
+*{
+border:x solid green;
+}
+ul {
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  z-index:0;
+  display:flex;
+  flex-direction:column;
+}
+ul input{
+  border:none;
+}
+
+form button[type="submit"]{
+  border:none;
+  width:100%;
+  background:#eee;
+  font-size:6vw;
+}
+li{
+  width:80vw;
+  background:#fff;
+}
+ul .fa {
+  font-size:4.5vw;
+  padding:0.5vw 3vw;
+}
